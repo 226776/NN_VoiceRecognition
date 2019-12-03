@@ -11,6 +11,7 @@ This is a training project to lern neural networks and pytorch.
 
 - https://pytorch.org/tutorials/beginner/blitz/neural_networks_tutorial.html#sphx-glr-beginner-blitz-neural-networks-tutorial-py (main 2?)
 
+- https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
 
 ## Answer to the question: How many hidden layers?
 

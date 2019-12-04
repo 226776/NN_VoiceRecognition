@@ -13,6 +13,8 @@ This is a training project to lern neural networks and pytorch.
 
 - https://pytorch.org/tutorials/beginner/data_loading_tutorial.html
 
+- http://zsi.tech.us.edu.pl/~nowak/si/SI_w4.pdf
+
 ## Answer to the question: How many hidden layers?
 
 https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw

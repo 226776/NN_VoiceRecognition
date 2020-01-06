@@ -1,9 +1,19 @@
 # NN_VoiceRecognition
 
-The voice recognition system. Main target is to recognise void of maintainter of the project, so the output is a boolean (two outputs?). 
-This is a training project to lern neural networks and pytorch. 
+System rozpozanwania głosu. Głównym założeniem jest rozpoznanie głosu założyciela projektu. 
+Sieć będzie mieć zatem dwa wyjścia (jedno dla poprawnego rozpoznania głosu, drugie dla pozostałych dźwięków lub innej osoby). 
+Jest to projekt trningowy mający na celu zaznajomienie się ze sztucznymi sieciami neuronowymi.
+Projekt realizowany jest przy użyciu narzędzi takich jak:
+- język programowania: Python 3
+- biblioteka obsługi dźwięku: librosa
+- biblioteka do sieci neuronowej: pytorch
+- system operacyjny: Win 10 oraz Linux Debian 
+- środowisko projektu: jupyter notebook
 
-## Tutorials:
+## Uwagi do projektu: 
+- komentarze w kodzie w celu praktyki napisane są w języku angielskim
+
+## Tutorials (źródła wiedzy):
 
 - https://pytorch.org/tutorials/beginner/nn_tutorial.html (main)
 

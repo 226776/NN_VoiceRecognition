@@ -11,6 +11,8 @@ Projekt realizowany jest przy użyciu narzędzi takich jak:
 - środowisko projektu: jupyter notebook
 
 ## Uwagi do projektu: 
+- Główne pliki :  __VoiceRevogNetTraining__ (uczenie sieci), __VoiceRecognitionNet_Veryfication__ (veryfikacja sieci) 
+- Link do obecnego modelu: https://drive.google.com/file/d/1RHqu3rXc9RUFHWFnxETm7mBy5YT_HTa0/view?usp=sharing
 - komentarze w kodzie w celu praktyki napisane są w języku angielskim
 
 ## Tutorials (źródła wiedzy):

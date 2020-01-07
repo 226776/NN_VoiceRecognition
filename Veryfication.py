@@ -287,8 +287,9 @@ for k in range(len(vsKrystianTest)):
         K += 1
     else:
         N += 1
-    
-print("Wynik rozpoznawania!")
+   
+print("\n")
+print("Wynik rozpoznawania nagrań Krystiana!")
 print("Krystian:",K," Nicia:",N)
     
 
@@ -322,8 +323,8 @@ for k in range(len(vsNiciaTest)):
         K += 1
     else:
         N += 1
-    
-print("Wynik rozpoznawania!")
+print("\n")
+print("Wynik rozpoznawania nagrań Nici!")
 print("Krystian:",K," Nicia:",N)
 
 
@@ -337,12 +338,14 @@ print("Krystian:",K," Nicia:",N)
 input = vsKrystianTest[5].view(-1,1,256,256)
 output = net(input)
 
+print("\n")
 print("Przykładowe wyjście nauczonej sieci dla próbki Krystiana:")
 print(output)
 
 input = vsNiciaTest[5].view(-1,1,256,256)
 output = net(input)
 
+print("\n")
 print("Przykładowe wyjście nauczonej sieci dla próbki Nici:")
 print(output)
 

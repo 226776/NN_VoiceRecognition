@@ -11,6 +11,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import math
 import logging
+import os
 
 from torch.utils.data import Dataset, DataLoader
 from matplotlib import pyplot
@@ -258,8 +259,9 @@ class VoiceRecogModel(nn.Module):
     
     # create parrter recognition model 
 
-PATH = filedialog.askdirectory()
-PATH = PATH + "/"
+print(os.path.dirname(os.path.realpath(__file__)))
+PATH = input("Type model path: ")
+PATH = PATH + "/modelV5.pt"
 net = VoiceRecogModel()
 net.load_state_dict(torch.load(PATH))
 net.eval()
